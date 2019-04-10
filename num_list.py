@@ -7,7 +7,9 @@ def print_each_number():
     # 10
     # ...etc
     # TODO - Write your code below this line.  (Keep the indentation)
-    
+  for x in (nums):
+        print(x,sep="\n")
+print_each_number()
 
     
 
@@ -19,5 +21,7 @@ def print_each_number_and_its_square():
     # The square of 10 is 100
     # ...etc
     # TODO - Write your code below this line.  (Keep the indentation)
-    
+    for x in (nums):
+        print ("The square of", x, "is", (x*x))
+print_each_number_and_its_square()
 
