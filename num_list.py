@@ -7,6 +7,8 @@ def print_each_number():
     # 10
     # ...etc
     # TODO - Write your code below this line.  (Keep the indentation)
+    for nums in [12, 10, 32, 3, 66, 17, 42, 99, 20]:
+        print ( nums )
     
 
     
@@ -20,4 +22,13 @@ def print_each_number_and_its_square():
     # ...etc
     # TODO - Write your code below this line.  (Keep the indentation)
     
+    for number in [12, 10, 32, 3, 66, 17, 42, 99, 20]:
+    
+        import math
+        numss = math.pow(number,2)
+        numss = int(numss)
+        print ("The square of",number,"is",(numss))
+    
+    
+
 
